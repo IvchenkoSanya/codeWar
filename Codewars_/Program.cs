@@ -8,11 +8,18 @@ namespace Codewars_
         
         static void Main(string[] args)
         {
-           var str1 =  Kata.PigIt("Pig latin is cool");
-            var str2 = Kata.PigIt("Hello world !");
-                Console.WriteLine(str1);
-                Console.WriteLine(str2);
-            
+            int[][] array =
+                            {
+                               new []{1, 2, 3},
+                               new []{4, 5, 6},
+                               new []{7, 8, 9}
+                           };
+            var x = SnailSolution.Snail(array);
+            foreach (var item in x)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.ReadKey();
         }
     }
