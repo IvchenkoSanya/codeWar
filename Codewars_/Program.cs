@@ -8,19 +8,11 @@ namespace Codewars_
         
         static void Main(string[] args)
         {
-            int[][] array =
-                            {
-                               new []{1, 2, 3},
-                               new []{4, 5, 6},
-                               new []{7, 8, 9}
-                           };
-            var x = SnailSolution.Snail(array);
-            foreach (var item in x)
-            {
-                Console.WriteLine(item);
-            }
+            Console.WriteLine(ROT13.Rot13("EBG13 rknzcyr."));
+            Console.WriteLine(ROT13.Rot13("This is my first ROT13 excercise!"));
+       
 
-            Console.ReadKey();
+                        Console.ReadKey();
         }
     }
 }
