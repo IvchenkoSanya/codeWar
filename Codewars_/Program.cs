@@ -8,20 +8,14 @@ namespace Codewars_
         
         static void Main(string[] args)
         {
-            var x = SortBinaryTreeByLevels.TreeByLevels(null);
-
-            var y = SortBinaryTreeByLevels.TreeByLevels(new Node(new Node(null, new Node(null, null, 4), 2), new Node(new Node(null, null, 5), new Node(null, null, 6), 3), 1));
-
-            foreach (var item in y)
-            {
-                Console.WriteLine(item);
-            }
+            Console.WriteLine(DoubleLinear.DblLinear(10));
+            Console.WriteLine(DoubleLinear.DblLinear(20));
+            Console.WriteLine(DoubleLinear.DblLinear(30));
+            Console.WriteLine(DoubleLinear.DblLinear(50));
 
 
 
-
-
-                        Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
